@@ -9,7 +9,7 @@
     <h1 id="info"></h1>
     <script>
       if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/02-service-workers-caches-only-if-online.js', { scope: '/' })
+        navigator.serviceWorker.register('../02-service-workers-caches-only-if-online.js', { scope: '/' })
         .then(registration =>
           console.log('Service Worker Registered')
         );
